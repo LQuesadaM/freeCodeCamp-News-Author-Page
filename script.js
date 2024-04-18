@@ -15,7 +15,12 @@ fetch("https://cdn.freecodecamp.org/curriculum/news-author-page/authors.json")
   })
   .catch((err) => console.error(`There was an error: ${err}`));
 
-  //* More authors
+//* More authors
+const fetchMoreAuthors = () => {
+  startingIndex += 8;
+  endingIndex += 8;
+  displayAuthors(authorDataArr.slice(startingIndex, endingIndex));
+};
 
 const displayAuthors = (authors) => {
   authors.forEach(({ author, image, url, bio }, index) => {
@@ -28,3 +33,5 @@ const displayAuthors = (authors) => {
     </div>`;
   });
 };
+
+loadMoreBtn.addEventListener("click", fetchMoreAuthors);
