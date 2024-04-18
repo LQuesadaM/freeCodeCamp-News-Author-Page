@@ -4,4 +4,6 @@ This freeCodeCamp author page project will show how to use the fetch method, and
 
 This project will also show how to paginate your data so you can batch load the results.
 
+[Github deploy](https://lquesadam.github.io/freeCodeCamp-News-Author-Page/)
+
 [Project from freeCodeCamp](https://www.freecodecamp.org/espanol/learn/javascript-algorithms-and-data-structures-v8/learn-fetch-and-promises-by-building-an-fcc-authors-page/step-1)
